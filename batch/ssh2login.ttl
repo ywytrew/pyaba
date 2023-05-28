@@ -1,0 +1,26 @@
+username = '22D10072'
+hostname = 'login.t3.gsic.titech.ac.jp'
+key_file = 'C:\Users\YANG\Desktop\id_rsa.ppk' 
+passwdfile = '0000'
+portnum = '22'
+
+getpassword passwdfile username userpasswd
+
+msg = hostname
+strconcat msg ':portnum /ssh /auth=publickey /user='
+strconcat msg username
+strconcat msg ' /passwd='
+strconcat msg userpasswd
+strconcat msg ' /keyfile=' 
+strconcat msg key_file
+strconcat msg inputstr
+
+connect msg
+
+wait '#' ''
+
+sendln 'qsub -g tga-inoue-rubber job.sh'
+
+pause 20
+
+closett

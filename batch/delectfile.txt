@@ -1,0 +1,12 @@
+open @echo print your privte key here
+
+rm /home/4/20M11200/abaqus/Job-1.odb
+rm /home/4/20M11200/abaqus/Job-1.sim
+rm /home/4/20M11200/abaqus/Job-1.log
+rm /home/4/20M11200/abaqus/Job-1.sta
+rm /home/4/20M11200/abaqus/Job-1.prt
+rm /home/4/20M11200/abaqus/Job-1.msg
+rm /home/4/20M11200/abaqus/Job-1.dat
+rm /home/4/20M11200/abaqus/Job-1.com
+
+exit

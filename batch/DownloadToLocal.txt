@@ -1,0 +1,5 @@
+open @echo print your privte key here
+
+get /home/4/20M11200/abaqus/Job-1.odb D:\gitproject\pyaba\abafiles\result\
+
+exit

@@ -1,0 +1,3 @@
+open @echo print your privte key here
+stat /home/4/20M11200/abaqus/Job-1.inp
+exit

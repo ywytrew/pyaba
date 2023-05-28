@@ -1,0 +1,6 @@
+open @echo input your privte key here
+
+put D:\gitproject\pyaba\abafiles\input\Job-1.inp /home/4/20M11200/abaqus/
+
+
+exit
